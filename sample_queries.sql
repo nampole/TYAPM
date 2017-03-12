@@ -48,3 +48,4 @@ INSERT INTO testSP VALUES (10, 'Value 10', date_add(now(), interval 15 day));
 
 CREATE PROCEDURE sp1 () SELECT * FROM testSP WHERE  date_added BETWEEN DATE_SUB(NOW(), INTERVAL 7 DAY) AND NOW() //
 
+select * from testsp
