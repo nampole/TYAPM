@@ -14,7 +14,7 @@ echo "<br/>";
 $testing = true;
 echo "is boolean? ".is_bool($testing); // checks if boolean
 echo "<br/>";
-$testing = array('apple', 'orange', 'pear');
+$testing = array('사과', '귤', '배');
 echo "is an array? ".is_array($testing); // checks if array
 echo "<br/>";
 echo "is numeric? ".is_numeric($testing); // checks if is numeric
